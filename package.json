@@ -3,6 +3,19 @@
   "version": "0.0.1",
   "description": "",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./foo": "./dist/foo.js",
+    "./package.json": "./package.json"
+  },
+  "typesVersions": {
+    "*": {
+      "foo": [
+        "dist/foo.d.ts"
+      ]
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepack": "tsc",
