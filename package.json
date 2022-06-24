@@ -1,0 +1,28 @@
+{
+  "name": "@sergeykotov/legendary-fortnight",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "tsc",
+    "postversion": "git push && git push --tags"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaos7991/legendary-fortnight.git"
+  },
+  "keywords": [],
+  "author": "Sergey Kalmykov <yougodxaos@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xaos7991/legendary-fortnight/issues"
+  },
+  "homepage": "https://github.com/xaos7991/legendary-fortnight#readme",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
+}
